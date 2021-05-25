@@ -1,0 +1,50 @@
+/* Set the property of the whole page */
+body {
+    background-color: #F7827E;
+    color: #F4534E;
+    text-align: center;
+}
+
+/* Header */
+
+.header {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 7px 42px 7px 42px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #de2116;
+    color: #e8aba7;
+    border: 0px;
+    border-radius: 5px;
+    font-size: large;
+    font-family: 'Open-sans', sans-serif;
+    font-weight: 600;
+}
+
+button:hover {
+    transform: scale(1.01);
+    background-color: #ed1509;
+}
+
+/* Container */
+.container {
+    display: grid;
+    border: solid 1px red;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+}
+
+
